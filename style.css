@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+div {
+    overflow: hidden;
+    display: block;
+}
+.containar {
+    width: 800px;
+    margin: 20px auto;
+    background: #EFFCEF;
+    border: 1px solid #82E582;
+    border-radius: 3px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: none;
+}
+.left {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+.right {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+input[type=text], input[type=email], input[type=number] {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid #B4D6A5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #A6A8A6;
+}
+
+textarea {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #B4D6A5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #A6A8A6;
+    
+}
+input:focus {
+	border: 1px solid red;
+}
+
+.communication, .appoinment, .time {
+    margin-bottom: 20px;
+}
+
+
+
+.communication, .appoinment, .time {
+    color: #7FB284;
+}
+label {
+    font-weight: bold;
+    color: #000;
+}
+.form-bottom {
+    border-top: 1px solid #96C97B;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+input[type="submit"] {
+	font-size: 20px;
+	color: #fff;
+	background: #76CF76;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	width: 250px;
+	margin: 0 auto 5px;
+	display: block;
+}
+input[type=radio] {
+    color: red;
+}

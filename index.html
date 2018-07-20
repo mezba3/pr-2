@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--   container start-->
+    <div class="containar">
+        <div class="form-container">
+            <form action="mail.php" method="POST">
+                <div class="form-top">
+                    <div class="left">
+                        <input class="foccus" type="text"  onblur="this.placeholder='Name'" onfocus="this.placeholder=''" placeholder="Name" name="name">
+                        <input   onblur="this.placeholder='Email'" onfocus="this.placeholder=''" placeholder="Email" type="email" placeholder="Email" name="email">
+                        <input onblur="this.placeholder='Phone'" onfocus="this.placeholder=''" type="text" placeholder="Phone" name="phone">
+                        <textarea name="message" id="" cols="45" rows="7" placeholder="Special notes, Concerns, or requirements"></textarea>
+                    </div>
+                    <div class="right">
+                        <div class="communication">
+                            <label class="label" for="">What is the best way to reach you?</label><br><br>
+                            Phone:<input type="radio" name="communication" value="Phone" id="radio">  
+                            Email:<input type="radio" name="communication" value="Email" id=""> 
+                        </div>
+                        <div class="appoinment">
+                            <label class="label" for="">Days of the week you are avaiable for appoinment:</label><br><br>
+                            <input type="checkbox" name="day1" id="" value="Monday">Monday <br>
+                            <input type="checkbox" name="day1" id="" value="Tuesday">Tuesday <br>
+                            <input type="checkbox" name="day1" id="" value="Wednesday">Wednesday <br>
+                            <input type="checkbox" name="day1" id="" value="Thursday">Thursday <br>
+                            <input type="checkbox" name="day1" id="" value="Friday">Friday
+                        </div>
+                        <div class="time">
+                            <label class="label" for="">Best time of day for your appoinment: </label><br><br>
+                            <input type="checkbox" name="time1" id="" value="Morning">Morning <br>
+                            <input type="checkbox" name="time1" id="" value="Afternoon">Afternoon <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-bottom">
+                   <input type="submit" value="Request My Appoinment">
+                </div>
+            </form>
+        </div>
+    </div>
+<!--    container end-->
+</body>
+</html>
